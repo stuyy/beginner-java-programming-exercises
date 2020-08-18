@@ -55,7 +55,7 @@ Then we can assign the value of `age` to `intAge`
 
 The value of `f` would be `22.0` and *not* `22`, doubles and floats will always trail a decimal point, in this case it will add a `.0` at the end of `22`.
 
-*Narrowing conversion* is the opposite of *widening conversion*, where we convert a higher ranked data type to a lower ranked data type. The above example of assigning an integer to a double is an example of narrowing conversion. 
+*Narrowing conversion* is the opposite of *widening conversion*, where we convert a higher ranked data type to a lower ranked data type.
 
 Java does not perform narrowing conversions automatically, due to *loss of precision*.
 
